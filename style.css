@@ -1,0 +1,29 @@
+  .header-image {
+    background-image: url("test3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+.is-round {
+	border-radius:50%;
+}
+.navbar { position: fixed !important; top: 0; left: 0; right: 0; }
+
+#ford
+{
+	height: 50px;
+    width: 50%;
+    z-index: 100;
+}
+
+.nav-item a:not(.button), a.nav-item:not(.button) {
+    color:white;
+}
+.footer
+{
+
+  background-color: grey;
+  padding: 0.5rem;
+}

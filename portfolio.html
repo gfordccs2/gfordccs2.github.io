@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Gford!</title>
+    <link rel="shortcut icon" class="is-round" type="image/png" href="itik.jpg"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+ <div>
+<nav class="navbar is-danger" style="z-index: 1" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#profile">
+     <img src="itik.jpg" class="is-128x128 is-round">
+  </a>
+
+    <div class="navbar-burger burger" data-target="navMenuTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item">
+        <a data-scroll href="#home" class="nav-item is-tab">Home</a>
+        <a data-scroll href="#companyprofile" class="nav-item is-tab">Company profile</a>
+        <a data-scroll href="#" class="nav-item is-tab">Department Assign</a>
+        <a data-scroll href="#" class="nav-item is-tab">What I DO</a>
+        <a data-scroll href="#" class="nav-item is-tab">Gallery</a>
+        <a data-scroll href="#" class="nav-item is-tab">Contact Me</a>
+      </div>
+  </div>
+</nav>
+
+    <section class="hero is-primary header-image" id="home">
+              <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+            <div class="container has-text-right">
+                <h1 class="title" style="margin-top: 70px">
+                    IT'S NICE TOO MEET YOU  
+                </h1>
+                <h2 class="subtitle">
+                    よろしくお願いします 
+                </h2>
+            </div>
+        </div>        
+      <div class="container" id="profile">
+        
+          <div style="position:relative;bottom:-100px;" align="center" >
+            <img src="ford.png" class="is-round" style="height: 250px; width: 250px;">
+          </div>
+
+  </div>
+</section>
+
+    <span> <br /> </span>
+    <span> <br /> </span>
+    <span> <br /> </span>
+    <span> <br /> </span>
+
+    <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered" >Glendford Kenn Salud</h1>
+      <h2 class="subtitle has-text-centered">
+      <br>
+        Bachelor of Science in Information Technology<br>
+        University of Cebu<br>
+        14266167 | Tarantang Itik <br>
+        七転び八起き
+      </h2>
+
+    </div>
+
+
+  </section>
+
+   <span> <hr> </span>
+    <span> <br /> </span>
+
+
+
+    <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered" id="companyprofile">Company Profile</h1>
+      <span> <br /> </span>
+      <h2 class="subtitle">
+        <u>coreDev Solutions Inc.  </u> <br>
+        Wonder how coreDev Solutions, Incorporated initiated its name in the Accounting and IT world?
+In the 1980s, the very first version of our accounting software was developed and it was named as "iAccs" (Integrated Accounting System) in which it started as a DOS-based application. It has greatly helped Cooperatives and Rural Banks automate their Credit and Savings operation while enjoying integration into the Accounting System.
+<br>
+<br>
+The rapid advancement in technology and the ever growing needs of our clients inspired us to further develop the system. In the year 2013, we launched the newest version of the system, we called it "iAccs 2013". We have evolved from being just a software provider into a service-oriented solutions provider. Thus the need to serve our clients and our aims to drastically broaden our horizons, brought the birth of coreDev Solutions, Incorported that serves its clients 24/7.
+      </h2>
+
+    </div>
+
+
+  </section>
+
+
+
+
+</div>
+
+  <script src="smooth-scroll.js"></script>
+
+  <script>
+    smoothScroll.init({
+      offset:70,
+      easing: 'easeInOutQuart',
+    });
+    document.addEventListener('DOMContentLoaded', function(){
+          Typed.new('.element', {
+            strings: ["We always deliver what you expect...", "We make great products to satisfy your needs...", "We create solutions to better your business operations..."],
+            typeSpeed: 40,
+            loop:true
+          });
+      });
+    new WOW().init();
+    $(document).ready(function(){
+      $('body').addClass('loaded');
+      $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:3
+          }
+        }
+      });
+    });
+  </script>
+
+  <footer class="footer is-dark">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/jgthms/bulma">
+          <i class="fa fa-github"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
